@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Mulish:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #FFF;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-link,
+.form-inline {
+    font-size: 16px;
+    margin: 8px;
+    font-family: 'inter';
+}
+
+.nav-link {
+    color: #353741 !important;
+    font-weight: 400;
+}
+
+.form-inline .btn {
+    margin: 12px;
+}
+
+.nav-link:focus {
+    font-weight: bold;
+}
+
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.border:focus {
+    background-color: #d4d4d422;
+}
+
+.border {
+    border: 1px solid #FB8F1D !important;
+    color: #FB8F1D;
+}
+
+.btn-regist {
+    color: #FFF;
+    background-color: #FB8F1D;
+    border-color: #FB8F1D;
+}
+
+.btn-regist:focus {
+    background-color: #ffc107;
+    color: #FFF;
+}
+
+.navbar-toggler:focus {
+    outline: black;
+}
+
+/* Select destination */
+
+.goselect {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+}
+
+.option .col {
+    margin: 12px;
+}
+
+col div .option {
+    margin-top: 68px;
+}
+
+.goselect:focus {
+    outline: none !important;
+}
+
+.illus {
+    max-width: 550px;
+}
+
+.garis {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #202336;
+
+}
+
+.display-4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+.title-content {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 44px;
+}
+
+.section {
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+.title-section {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.desc-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.view {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    align-items: center;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+
+.card-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    color: #042521;
+    text-align: center;
+}
+
+.card-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #80918E;
+    text-align: center;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: unset;
+    border-top: unset;
+}
+
+.text-muted a {
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D !important;
+}
+
+.card {
+    border: unset;
+}
+
+footer {
+    height: 50px;
+}
+
+.plan {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+    margin-bottom: 50px;
+}
+
+.copy {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #848484;
+}
+
+.title-footer p a,
+.title-footer p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #848484;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+
+    .illus {
+        margin-top: 45px !important;
+    }
+
+    section {
+        margin: auto;
+    }
+
+}
