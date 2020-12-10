@@ -4,9 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/Group 7.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1ABE84" />
+    <link rel="shortcut icon" href="/src/img/icon192.png">
+    <link rel="apple-touch-icon" href="/src/img/icon192.png">
     <title>Tenggara Tour and Travel</title>
 </head>
 
@@ -16,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-light shadow-sm"
             style="background-color: white;">
             <div class="container-xl">
-                <a class="navbar-brand ml-3" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <a class="navbar-brand ml-3" href="index.html"><img src="src/img/logo.png" alt="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -54,11 +60,11 @@
         </nav>
     </header>
 
-    <main class="container-xl" style="margin-top: 105px;">
+    <main class="container-sm" style="margin-top: 105px;">
 
-        <div class="site-content">
-            <div class="row">
-                <div class="col col-md-5">
+        <div class="site-content main" data-aos="fade-left">
+            <div class="row align-items-center">
+                <div class="col col-md-6">
                     <h1 class="title-content">Explore and
                         Travel</h1>
                     <div>
@@ -67,17 +73,16 @@
                         <div class="row option">
                             <select class="col goselect">
                                 <option value="0">Location</option>
-                                <option value="1">Indonesia</option>
-                                <option value="2">Thailand</option>
-                                <option value="3">Malaysia</option>
-                                <option value="4">Singapore</option>
-                                <option value="5">Phillipines</option>
-                                <option value="6">Vietnam</option>
-                                <option value="7">Cambodia</option>
-                                <option value="8">Myanmar</option>
-                                <option value="9">Brunei</option>
-                                <option value="10">Laos</option>
-
+                                <option value="1">Bali</option>
+                                <option value="2">West Java</option>
+                                <option value="3">Aceh</option>
+                                <option value="4">Yogyakarta</option>
+                                <option value="5">Jakarta</option>
+                                <option value="6">Lombok</option>
+                                <option value="7">Papua</option>
+                                <option value="8">Central Java</option>
+                                <option value="9">Maluku</option>
+                                <option value="10">East Java</option>
                             </select>
                             <select class="goselect col">
                                 <option>Activity</option>
@@ -102,16 +107,16 @@
                             style="margin-top: 30px; width: 130px;">Explore</button>
                     </div>
                 </div>
-                <div class="col col-md-6 ml-auto">
-                    <img src="img/thousand-011.png" alt="Find Your Holiday" class="illus">
+                <div class="col col-md-6 float-left">
+                    <img src="src/img/thousand-011.png" alt="Find Your Holiday" class="illus-main">
                 </div>
             </div>
         </div>
 
-        <div class="section">
-            <div class="row align-items-center">
-                <div class="col col-ml-4">
-                    <img src="img/Thousand-021.png" alt="A new way to explore the world " class="illus">
+        <div class="section" data-aos="fade-right">
+            <div class="row justify-content-center">
+                <div class="col col-md-7">
+                    <img src="src/img/Thousand-021.png" alt="A new way to explore the world " class="illus">
                 </div>
                 <div class="col col-md-5">
                     <h2 class="title-section">A new way to explore the world</h2>
@@ -124,11 +129,11 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" data-aos="fade-right">
 
-            <div class="row" style="margin-bottom: 56px;">
-                <h2 class="title-section col-auto mr-auto">Featured destinations</h2>
-                <div class="col-auto">
+            <div class="row justify-content-center">
+                <h2 class="title-section col-10">Featured destinations</h2>
+                <div class="col-2">
                     <p class="view">View all <svg width="1em" height="1em" viewBox="0 0 16 16"
                             class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -137,79 +142,82 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                        <div class="card">
+            <div class="row justify-content-center">
 
-                            <img src="img/raja-ampat.png" alt="Raja Ampat">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Raja Ampat</h5>
-                            <p class="card-text">Indonesia</p>
-                        </div>
+                <div class="card col-6 col-md-3">
+                    <div class="card-image">
+
+                        <img src="src/img/raja-ampat.png" alt="Raja Ampat">
                     </div>
-
-                    <div class="col-6 col-md-3">
-                        <div class="card">
-
-                            <img src="img/Fanjingshan.png" alt="Raja Ampat">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Fanjingshan</h5>
-                            <p class="card-text">China</p>
-                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Raja Ampat</h5>
+                        <p class="card-text">West Papua</p>
                     </div>
-
-                    <div class="col-6 col-md-3">
-                        <div class="card">
-
-                            <img src="img/Vevey.png" alt="Raja Ampat">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Vevey</h5>
-                            <p class="card-text">Switzerland</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-3">
-                        <div class="card">
-
-                            <img src="img/Skadar.png" alt="Raja Ampat">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Skadar</h5>
-                            <p class="card-text">Montenegro</p>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="card col-6 col-md-3">
+                    <div class="card-image">
+
+                        <img src="src/img/lombok.png" alt="Lombok Island">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Lombok Island</h5>
+                        <p class="card-text">West Nusa Tenggara</p>
+                    </div>
+                </div>
+
+                <div class="card col-6 col-md-3">
+                    <div class="card-image">
+
+                        <img src="src/img/bali.png" alt="Bali">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bali</h5>
+                        <p class="card-text">Bali Island</p>
+                    </div>
+                </div>
+
+                <div class="card col-6 col-md-3">
+                    <div class="card-image">
+
+                        <img src="src/img/bromo.png" alt="Mount Bromo">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Mount Bromo</h5>
+                        <p class="card-text">East Java</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
-        <div class="section">
+        <div class="section main" data-aos="fade-left">
             <div class="row align-items-center">
-                <div class="col col-ml-4">
+                <div class="col col-md-6">
                     <h2 class="title-section">Guides by Thousand
                         Sunny</h2>
                     <p class="desc-title">Packed with tips and advice from our on-the-ground experts, our city guides
                         app (iOS and Android) is the ultimate resource before and during a trip.</p>
                     <button class="button menu-right-btn btn-regist" style="margin-top: 30px;">Download</button>
                 </div>
-                <div class="col col-md-5">
-                    <img src=" img/Thousand-03.png" alt="A new way to explore the world " class="illus">
+                <div class="col col-md-6">
+                    <img src="src/img/Thousand-03.png" alt="A new way to explore the world " class="illus">
                 </div>
             </div>
         </div>
 
-        <div class="section">
-            <div class="row align-items-center">
-                <div class="col col-ml-4">
-                    <img src="img/photo.png" alt="A new way to explore the world " class="illus">
+        <div class="section" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <h2 class="title-section" style="margin-bottom: 50px;">Testimonials</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col col-md-6">
+                    <img src="src/img/photo.png" alt="A new way to explore the world " class="illus">
                 </div>
                 <div class="col col-md-5">
-                    <h2 class="title-section" style="margin-bottom: 100px;">Testimonials</h2>
-                    <img src="img/stars.png" alt="Review" style="margin-bottom: 50px;">
+
+                    <img src="src/img/stars.png" alt="Review">
                     <p class="desc-title">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac
                         scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
 
@@ -219,14 +227,26 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" data-aos="fade-up">
 
-            <div class="row">
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                        <div class="card">
+            <div class="row justify-content-center">
+                <h2 class="title-section col-10">Trending Stories</h2>
+                <div class="col-2">
+                    <p class="view">View all <svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg></p>
+                </div>
+            </div>
 
-                            <img src="img/1.png" alt="...">
+
+            <div class="row ">
+                <div class="row justify-content-center">
+                    <div class="card col-6 col-md-3">
+                        <div class="card-image">
+
+                            <img src="src/img/1.png" alt="...">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title" style="text-align: left;">The many benefits of
@@ -239,16 +259,16 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-3">
-                        <div class="card">
+                    <div class="card col-6 col-md-3">
+                        <div class="card-image">
 
-                            <img src="img/2.png" alt="...">
+                            <img src="src/img/2.png" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: left;">The best Kyoto restaurant
-                                to try Japanese food</h5>
+                            <h5 class="card-title" style="text-align: left;">The best Javanese restaurant
+                                to try Indonesian food</h5>
                             <p class="card-text" style="text-align: left;">From tofu to teahouses, here’s our guide to
-                                Kyoto’s best restaurants
+                                Javanese best restaurants
                                 to visit...</p>
                         </div>
                         <div class="card-footer">
@@ -256,27 +276,26 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-3">
-                        <div class="card">
+                    <div class="card col-6 col-md-3">
+                        <div class="card-image">
 
-                            <img src="img/3.png" alt="...">
+                            <img src="src/img/3.png" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: left;">Skip Chichen Itza and head
-                                to this remote Yucatan</h5>
-                            <p class="card-text" style="text-align: left;">It’s remote and challenging to get,
-                                but braving the jungle and exploring
-                                these ruins without the...</p>
+                            <h5 class="card-title" style="text-align: left;">Get a Taster of Balinese Tradition at a
+                                Cultural Evening</h5>
+                            <p class="card-text" style="text-align: left;">With its wild, wonderful and otherworldly
+                                traditions, Balinese culture might seem a little daunting to a first-timer...</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"><a><a href="#">Read More</a></a></small>
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-3">
-                        <div class="card">
+                    <div class="card col-6 col-md-3">
+                        <div class="card-image">
 
-                            <img src="img/4.png" alt="...">
+                            <img src="src/img/4.png" alt="...">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title" style="text-align: left;">Surf’s up at these beginner
@@ -296,14 +315,14 @@
 
         </div>
 
-        <div class="section" style="margin-bottom: 0;">
-            <div class="container text-center text-md-left mt-5">
+        <div class="section text-center">
+            <div class="container text-md-left mt-5">
 
                 <div class="row mt-3">
 
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-                        <h6 class="text-uppercase font-weight-bold"><img src="img/Group 7.png" alt="Tenggara">
+                        <h6 class="text-uppercase font-weight-bold"><img src="src/img/Group 7.png" alt="Tenggara">
                         </h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p class="plan">Plan and book your perfect trip with
@@ -319,17 +338,17 @@
                         <h6 class="text-uppercase font-weight-bold">Destination</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p>
-                            <a href="#!">Africa
+                            <a href="#!">Java
                             </a>
                         </p>
                         <p>
-                            <a href="#!">Asia</a>
+                            <a href="#!">Sumatera</a>
                         </p>
                         <p>
-                            <a href="#!">Europe</a>
+                            <a href="#!">Bali and Nusa Island</a>
                         </p>
                         <p>
-                            <a href="#!">America</a>
+                            <a href="#!">Papua</a>
                         </p>
 
                     </div>
@@ -381,11 +400,11 @@
 
     <footer class="bg-light d-flex justify-content-center">
         <div class="align-self-xl-center">
-            <img src="img/social media.png" alt="Find Us">
+            <img src="src/img/social media.png" alt="Find Us">
         </div>
     </footer>
 
-    <script src="js/jquery-3.5.1.min.js">
+    <script src="src/js/jquery-3.5.1.min.js">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
@@ -393,7 +412,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/js/index.js"></script>
+    <script src="sw-reg.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+{
+    "name": "Tenggara Tour",
+    "short_name": "Travel Guide Agency",
+    "description": "Travel Guide Website",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "gcm_sender_id" : "209657799911",
+    "orientation": "any",
+    "theme_color": "#1ABE84",
+    "background_color": "#fff",
+    "scope": ".",
+    "icons": [
+        
+        {
+        "src": "/src/img/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+
+    {
+        "src": "/src/img/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+    },
+
+    {
+        "src": "/src/img/icon192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "/src/img/icon192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+]
+
+}

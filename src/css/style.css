@@ -19,6 +19,7 @@ body {
 .nav-link {
     color: #353741 !important;
     font-weight: 400;
+    transition-duration: 1s;
 }
 
 .form-inline .btn {
@@ -27,6 +28,11 @@ body {
 
 .nav-link:focus {
     font-weight: bold;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+    color: #28292f !important;
 }
 
 
@@ -45,14 +51,17 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,
-        background-color .15s ease-in-out,
-        border-color .15s ease-in-out,
-        box-shadow .15s ease-in-out;
+    transition-duration: 1s;
+
 }
 
 .button:focus {
     outline: none;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+
 }
 
 .border:focus {
@@ -99,6 +108,11 @@ body {
         box-shadow .15s ease-in-out;
 }
 
+.goselect:hover {
+    cursor: pointer;
+
+}
+
 .option .col {
     margin: 12px;
 }
@@ -111,9 +125,12 @@ col div .option {
     outline: none !important;
 }
 
-.illus {
+.illus,
+.illus-main {
     max-width: 550px;
 }
+
+
 
 .garis {
     display: block;
@@ -175,6 +192,10 @@ col div .option {
     mix-blend-mode: normal;
 }
 
+.view:hover {
+    cursor: pointer;
+}
+
 .card-title {
     font-family: Inter;
     font-style: normal;
@@ -211,8 +232,27 @@ col div .option {
     color: #FB8F1D !important;
 }
 
-.card {
+.card-image img {
     border: unset;
+    max-width: 100%;
+}
+
+.card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: unset !important;
+    border-radius: 8px !important;
+    margin: 15px;
+    padding: 0 !important;
+    transition-duration: 1s;
+    max-width: 255px !important;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    cursor: pointer;
+    box-shadow: -3px 14px 24px 15px #b9b8b955;
+
 }
 
 footer {
@@ -249,14 +289,37 @@ footer {
     text-decoration: none;
 }
 
+
 @media screen and (max-width: 980px) {
 
+    .illus-main,
     .illus {
-        margin-top: 45px !important;
+        margin-bottom: 30px !important;
+        max-width: 400px;
+    }
+
+    .main .row {
+        flex-direction: column-reverse !important;
+    }
+
+    .col-md-3,
+    .col-md-5 {
+        flex: 0 0 75%;
+        max-width: 55%;
+    }
+
+    .col-2 {
+        flex: 0 0 75%;
+        max-width: 75%;
     }
 
     section {
         margin: auto;
+    }
+
+    .title-section,
+    .view {
+        text-align: center;
     }
 
 }
